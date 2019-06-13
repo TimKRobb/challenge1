@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	background-color: whitesmoke;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+#calendrier {
+	min-width: 600px;
+	width: 70%;
+	margin: 90px auto;
+	padding: 20px;
+	border: 1px solid black;
+	box-shadow: 10px 10px 30px;
+	background-color: lightblue;
+}
+
+#calendrier #header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#calendrier .nav {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+#calendrier .title {
+	font-size: 1.6em;
+	font-weight: 900;
+}
+
+#calendrier table {
+	width: 100%;
+	margin: 20px 0px;
+	padding: 3px;
+	border: 1px solid blue;
+}
+
+#calendrier tr {
+	height: 40px;
+}
+
+#calendrier tr th {
+	font-weight: 900;
+	font-size: 1.2em;
+	text-align: center;
+	border: 1px solid white;
+	width: 14.2%;
+}
+
+#calendrier tr td {
+	font-size: 1.1em;
+	text-align: center;
+	border: 1px solid white;
+	width: 14.2%;
+	background-color: cyan;
+}
+
+#calendrier tr td.highlight {
+	font-weight: 900;
+	background-color: blue;
+	color: white;
+}
+
+#calendrier tr td.greyed {
+	background-color: lightgrey;
+	color: grey;
+}
